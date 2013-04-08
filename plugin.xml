@@ -1,0 +1,21 @@
+<plugin name='ais-sms' version='0.1' grailsVersion='1.3.3 &gt; *'>
+  <author>Your name</author>
+  <title>Plugin summary/headline</title>
+  <description>\
+Brief description of the plugin.
+</description>
+  <documentation>http://grails.org/plugin/ais-sms</documentation>
+  <resources>
+    <resource>BuildConfig</resource>
+    <resource>Config</resource>
+    <resource>DataSource</resource>
+    <resource>DefaultAisSmsConfig</resource>
+    <resource>UrlMappings</resource>
+    <resource>com.siberhus.ais.sms.AisSmsServiceController</resource>
+    <resource>com.siberhus.ais.sms.FakeSmsGatewayController</resource>
+    <resource>com.siberhus.ais.sms.AisDemoServiceService</resource>
+    <resource>com.siberhus.ais.sms.AisSmsService</resource>
+  </resources>
+  <dependencies />
+  <behavior />
+</plugin>
